@@ -1,0 +1,38 @@
+{
+  "name": "leitor-de-qrcode",
+  "productName": "LeitorDeQrcode",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Leitor de QrCode",
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "Isllan - Leitorzinho99",
+    "email": "isllanjuan751@gmail.com"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "release": "electron-forge release",
+    "lint": "echo \"No linting configured\""
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1",
+    "jimp": "^1.6.1",
+    "jsqr": "^1.4.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^8.0.1",
+    "@electron-forge/maker-deb": "^8.0.1",
+    "@electron-forge/maker-rpm": "^8.0.1",
+    "@electron-forge/maker-squirrel": "^8.0.1",
+    "@electron-forge/maker-zip": "^8.0.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^8.0.1",
+    "@electron-forge/plugin-fuses": "^8.0.1",
+    "@electron/fuses": "^2.1.3",
+    "@types/jimp": "^0.2.1",
+    "electron": "45.3.2"
+  }
+}

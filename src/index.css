@@ -1,0 +1,55 @@
+#Cabecalho {
+  display: flex;
+  justify-content: center;
+}
+
+#Titulo {
+  color: pink;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#caixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#Caminho {
+  width: 299px;
+  border-color: pink;
+  padding: 0px 0px 0px 5px;
+  color: pink;
+  font-family: cursive;
+}
+
+#Caminho::placeholder {
+  color: plum;
+}
+
+#Scanner {
+  height: 50px;
+  border-radius: 10px;
+  border-color: pink;
+  background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: pink;
+}
+
+#result-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: pink;
+}
+
+#resultado {
+  font-family: 'Times New Roman', Times, serif;
+  color: pink;
+  border-radius: 5px;
+  border-color: pink;
+  border-width: 2px;
+  height: 250px;
+  width: 700px;
+  padding: 4px 0px 0px 7px;
+  font-size: 15px;
+}
